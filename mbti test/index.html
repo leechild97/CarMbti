@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<div align="center">
+    <ins class="kakao_ad_area" style="display:none;" 
+    data-ad-unit    = "DAN-KqdDV5CVkLX9Whm5" 
+    data-ad-width   = "728" 
+    data-ad-height  = "90"></ins> 
+   <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>   
+</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카비티아이 테스트</title>
+    <meta name="robots" content="index.html">
+    <meta name="description" content="mbti테스트 형삭을 통해서 나와 가장 잘 어울리는 자동차브랜드를  설문테스트를 통해서 당신의 성격유형을 찾아줄것입니다!">
+    <meta name="author" content="시그널빌드">
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="차비티아이 테스트(12질문)">
+    <meta property="og:description" content="mbti테스트 형삭을 통해서 나와 가장 잘 어울리는 자동차브랜드를  설문테스트를 통해서 당신의 성격유형을 찾아줄것입니다!">
+    <meta property="og:image" content="https://mycarmbti.netlify.app/carmaster.png">
+    <meta property="og:url" content="https://mycarmbti.netlify.app/mbti test/index.html">
+    <meta name="subject" content="얼굴로 보는 인공지능 동물상 테스트, 나와 닮은 동물상을 찾아보세요!">
+    <meta name="keywords" content="차량 mbti,자동차,bmw,audi,benz,벤츠,아우디,람보르기니,맥라렌,코닉세그,mbti테스트,현대,제네시스,기아,르노삼성,포르쉐,애스턴마틴,페라리,폭스바겐,미니,쉐보레,캐딜락,자동차 테스트,자동차 mbti,자동차 성격테스트">
+    <meta name="naver-site-verification" content="55d74bacdca0b37daa2e7c10ea838605cf6ad6f4" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="desert.jpg">
+</body>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+<body class="container">
+    <article class="start">  
+        <h1 class="mt-5 text-center">나랑 어울리는 자동차 브랜드는?(12질문)</h1>
+        <button type="button" class="btn btn-primary mt-5" onclick='start();'>시작하기</button>
+    </article>
+    <article class="question">
+        <div class="progress mt-5">
+            <div class="progress-bar" role="progressbar" style="width: calc(100/12*1%)"></div>
+        </div>
+        <h2 id="title" class="text-center mt-5">문제</h2>
+        <input id="type" type="hidden" value="EI">
+        <button id="A" type="button" class="btn btn-primary mt-5">대답A</button>
+        <button id="B" type="button" class="btn btn-primary mt-5">대답B</button>
+    </article>
+    <br>
+    <article class="result">
+    <img id="img" class="rounded-circle mt-5" src="benz.jpg" alt="carbrand">
+    <h2 id="carbrand" class="text-center mt-5">차량브랜드 이름</h2>
+    <h3 id="explain" class="text-center mt-5">설명</h3>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <div class="share addthis_inline_share_toolbox"></div>
+    <button
+        text-align: center;
+            type="button p-2"
+            class="try-again-btn"
+            onclick="window.location.reload();"
+        >
+            <span class="try-again-text">다른 이미지로 시도</span>
+        </button>
+    </div>
+    </article>
+    <article class="kakao_ad mt-5">
+        <ins class="kakao_ad_area" style="display:none;" 
+        data-ad-unit    = "DAN-dMnm9CywDljEZAB1" 
+        data-ad-width   = "320" 
+        data-ad-height  = "100"></ins>      
+    </article>
+    <br>
+    <article mt-5>
+        <ins class="kakao_ad_area" style="display:none;" 
+ data-ad-unit    = "DAN-i8YkvoKovIJZeSjm" 
+ data-ad-width   = "250" 
+ data-ad-height  = "250"></ins> 
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    </article>
+    <a class="mt-5 banner" href="https://www.codelion.net/catalog/Q291cnNlTm9kZTpqbW9r?utm_source=animal_test&utm_medium=web_lecture&utm_campaign=jocoding">
+    <img class="banner-img" src="banner.png" alt="banner">
+    </a> 
+</article>
+
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+<footer>
+    Copyright © 2021 signalbuild. All rights reserved.
+    <address style="margin-bottom: 0;">Contact : qjfskql7@gmail.com</address>
+    <p>사진은 픽사베이를 통해 가져온 점을 미리 알려드립니다.</p>
+</footer>
+    <input type="hidden" id="EI" value="0">
+    <input type="hidden" id="SN" value="0">
+    <input type="hidden" id="TF" value="0">
+    <input type="hidden" id="JP" value="0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script>
+        var num = 1;
+        var q = {
+            1: {"title":"나는 운전을 할때 시야의 위치를 어느 포지션을 선호할까?", "type": "EI", "A": "아 역시 차는 높아야 시야가 확보되어 부담이 없지", "B": "차가 낮아야 역시 편하고 운전하는 재미가 있지"},
+            2: {"title":"나의 옵션선택 성향도는?", "type": "EI", "A": "역시 차에 빈 버튼은 용납 못하지", "B": "엥?필수옵션만 있으면 되는거 아닌가"},
+            3: {"title":"나의 차를 선택하는 유형은?", "type": "EI", "A": "(자기만족)역시 차고를때는 출력과 디자인이지!!", "B": "(실용주의)일단 차량의 복합연비와 제조사 서비스를 확인"},
+            4: {"title":"신호등과의 적당한 거리에서 주황불로 바뀔때 나의 행동은?", "type": "SN", "A": "엑섹을 밟아 출력을 높여 지니간다", "B": "여유있게 브레이크를 밟으며 정차했다 움직인다."},
+            5: {"title":"세차를 할때 나의 유형은?", "type": "SN", "A": "내 손으로 손세차를 하고 꼼꼼하게 닦는다", "B": "이동수단일뿐 자동세차를 돌린다"},
+            6: {"title":"주유할때 나는 어느 주유소를 갈까(가격동일시)", "type": "SN", "A": "셀프 주유소에 들어간다", "B": "직원이 주유를 도와주는 일반 주유소로 향한다."},
+            7: {"title":"나는 어떤 연료타입의 차를 좋아할까?", "type": "TF", "A": "차는 하이브리드 전기차이다.", "B": "내연기관에 차가 넘사벽이다(휘발유,경유)"},
+            8: {"title":"조수석에서 과자를 열심히 먹으며 부스러기 흘리는 지인에 대해 내 생각은?", "type": "TF", "A": "상관없다,참는다", "B": "자제해달라고 요구한다,화를낸다"},
+            9: {"title":"내 옆에 차량이 큰 소리로 지나갈때 나의 생각은?", "type": "TF", "A": "차량이름과 제조사 스펙이 머릿속에 스쳐지나간다", "B": "시끄러워서 민폐라고 머릿속에서 생각이 든다."},
+            10: {"title":"나의 오픈카에 대한 생각은?", "type": "JP", "A": "뚜껑 열고 다녀도 미세 먼지 극혐이고 이시국이라서 메리트 없다.", "B": "그래도 열고 다니는 갬성과 느낌이 있지"},
+            11: {"title":"렌트카를 빌릴때 나의 유형은?", "type": "JP", "A": "내가 평소에 타보고 싶었던 차량을 렌트한다", "B": "필수로 고려할 점만 고려해서 차량을 렌트한다."},
+            12: {"title":"이 질문을 끝으로 12가지 유형", "type": "JP", "질문이 생각보다 많았다": "J", "B": "그냥 보통 이었다."}
+        }
+        var result = {
+            "ISTJ": {"carbrand": "현대", "explain": "당신은 평범하면서 갖주고 편의성을 추구하며 은은하게 고급스러움을 원하는 타입이라고 말할수가 있습니다 국내 차량 브랜드로 소비자가 원하고 있는 풍부한 옵션과 무난하면서 부분적인 고급스러움과 패밀리 디자인으로 사랑을 받고 있습니다. ", "img": "img/hyundai.jpg"},
+            "ENFP": {"carbrand": "기아", "explain": "패밀리 느낌이면서 각지고 날렵한 디자인과 다방면을 잡고 싶다는 느낌을 가지고 있다면 추천하는 브랜드 기아입니다.최근들어서 각잡혀 있는 디자인을 많이 생산하면서 패밀리카의 느낌을 살리면서도 날렵한 디자인을 선호하고 있기 때문에 고객들에 만족을 많이 지원하고 있습니다.", "img": "img/kia.jpg"},
+            "ENTJ": {"carbrand": "쌍용", "explain": "장거리를 다니며 짐 적재 할 일도 많고 날렵해진 스타일을 찾는 당신에게 가장 적합한 브랜드 쌍용입니다.최근들어 회사의 재정난이 심해지면서 힘들어 지고 있지만 국내 suv에 선두를 달리고 있었으며 소형suv시장의 선두를 시작했던 티볼리부터 패밀리카이자 넉넉한 트렁크를 가지고 있는 렉스턴까지 있습니다.", "img": "img/ssangyoung.jpg"},
+            "INFJ": {"carbrand": "르노삼성","explain": "넓은 인터페이스 화면이 눈에 띄면서 넷플릭스를 부르는 욕구 및 무난함을 가지고 있는 르노삼성 입니다. sm6기준하여 환골탈태를 시작하였으며 넓어진 인터페이스 화면과 고급스러움이 보이는 가죽과 무드등을 제공하여 차량의 세련됨이 매력적이며 특유의 감성을 가지고 있는 브랜드입니다.","img": "img/result.jpg"},
+            "INTJ": {"carbrand": "쉐보레", "explain": "소형차량에서 부터 대형 suv까지 고객들에 입맛을 자극하는 브랜드 쉐보레입니다.소형경차 쉐보레 스파크 부터 시작하여 트래버스까지 있으며 중형세단에서는 말리부가 높은 출력및 디자인 덕분에 젊은층에서는 인기가 많이 있는 차량으로 더 높게는 범블비로 유명한 머슬카 카마로 까지 대 배기량에 비해서 가격이 저렴한 스포츠카 차량까지 만나 보실수가 있습니다. ", "img": "img/chevolet.jpg"},
+            "ISTP": {"carbrand": "벤츠", "explain": "신사의 느낌을 가지고 있으며 댄디함을 원하는 타입이라고 말할수가 있습니다.로고에서부터 오는 부,명예 느낌을 가지고 있으며 독일3사에 차량으로 마찬가지로 여러 차량으로 고객들의 입맛을 자극 하고 있으며 신사의 이미지를 가지고 있으며 내부같은 경우 아름다운 무드등이 '심'을 자극하며 세세한 부분까지 고객이 원함을 캐치하는 브랜드이다.", "img": "img/benz.jpg"},
+            "ISFP": {"carbrand": "BMW", "explain": "3대500을 치는 헬창의 느낌의 기질에 털털함을 가지고 있는 스타일에 타입이다.bmw같은경우는 독일3사 브랜드중 스포티함과 펀드라이빙으로 고객들의 만족을 많이 받고 있으며 돼지(?)콧구멍 라디에이터 그릴을 가지고 있는 차량의 브랜드로 근래의 G시리즈로 오면서 다양한 편의 및 고급스러운 실내디자인과 자연스러운 배열로 고객들의 만족을 가지고 있는 펀카의 브랜드중 한 브랜드라고 할수가 있을것같다.", "img": "img/bmw.jpg"},
+            "INFP": {"carbrand": "아우디", "explain": "얼리어답터 스마트함을 가지고 있는 타입이라고 할수가 있다. 선두에 있는 스타일과 당시의 독일3사랑 비교해을때 외관부터 내부까지 아름다움을 가지고 있었기 때문에 고객 만족도가 상당히 높았으며 차량 탑승시 세레머니 및 다양한 엔터테이먼트 기능과 편의성 디자인을 제공받으며 사랑받고있는 독일3사에 브랜드이다. ", "img": "img/audi.jpg"},
+            "INTP": {"carbrand": "랜드로버", "explain": "무뚝뚝해보이지만 세심깊은 타입이라고 할수가 있습니다. 랜드로버 같은경우는 사막에서의 롤스로이스라고 할 정도의 소리를 들을 정도에 편안함을 가지고 있는 suv생산을 전문적으로 하고 있는 브랜드라고 할수가 있다.소형 suv이보크부터 시작해서 레인지로버 보그 까지 다양의 차량으로 요트 승차감을 가지고 있으며 넉넉한 실내 적재및 공간등 고객에게 만족감을 주는 브랜드이다.", "img": "img/randrover.jpg"},
+            "ESTP": {"carbrand": "폭스바겐", "explain": "카리스마있는 이미지를 추구하는 타입에 사람 이라고 말할수가 있을것 같습니다 최근들어 폭스바겐 차량들이 패밀리 룩과 날카로운 디자인을 한번에 잡으면서 나오고 있기 때문에 메리트가 정말 많은 유형에 브랜드 라고 할수가 있을것 같다. ", "img": "img/volkswagen.jpg"},
+            "ESFP": {"carbrand": "미니", "explain": "귀여운 이미지를 가지고 있지만 스포티하며 노멀한 느낌이 아닌 현대적인 아트를 원하는 당신에게 어울리는 브랜드인 미니 입니다.", "img": "img/mini.jpg"},
+            "ENTP": {"carbrand": "포드", "explain": "스포츠카부터 시작해서 픽업트럭까지 여러 다방면의 장점들을 보유하고 있고 부분 아날로그틱하지만  당신에게 어울리는 브랜드는 포드입니다.", "img": "img/ford.jpg"},
+            "ESTJ": {"carbrand": "렉서스", "explain": "스윗트 하지만 잔소리가 좀 있는 부장님 스타일이라고 말할수가 있을것 같습니다.가끔 깨지않을 행동만 주의 한다면 존경 받기 가장 좋은 환경에 있습니다. ", "img": "img/lexus.jpg"},
+            "ENFJ": {"carbrand": "캐딜락", "explain": "자신감이 많고 시원스러운 스타일에 타입이라고 할수가 있습니다. 캐딜락이라고 하면 우선 생각하는게 방패디자인에 로고를 가장 많이 생각하고 직관적인 느낌을 많이 가지고 있습니다.", "img": "img/cadliac.jpg"},
+            "ENFJ": {"carbrand": "제네시스", "explain": "생각하는 수준이 높은 타입이라고 말할수가 있습니다. 상대의 부분 내면까지 신경을 쓰면서 부드러운 어른 스타일에 타입이라고 할수가 있습니다. 어디 하나 빠지고 싶지 않아서 매력적으로 성장하려는 노력파 라고 할수가 있습니다. ", "img": "img/genesis.jpg"},
+            "ENTJ": {"carbrand": "테슬라", "explain": "당신은 얼리어답터를 추구하는 사람으로 최신 기술이 종합적으로 다 들어간 전기차로 얼리어답터의 느낌과 편안한 반자율주행+연비를 원한다면 당신에게 어울리는 테슬라입니다", "img": "img/tesalr.jpg"},
+        }
+        function start() {
+            $(".start").hide();
+            $(".question").show();
+            next();
+        } 
+        $("#A").click(function(){
+            var type = $("#type").val();
+            var prevalue = $("#"+type).val(); 
+            $("#"+type).val(parseInt(prevalue)+1); 
+            next();
+        });
+        $("#B").click(function(){
+            next();
+        });
+        function next() {
+            if (num == 13) {
+                $(".question").hide();
+                $(".result").show();
+                var mbti = "";
+                ($("#EI").val() < 2) ? mbti+= "I" :mbti+="E";
+                ($("#SN").val() < 2) ? mbti+= "N" :mbti+="S";
+                ($("#TF").val() < 2) ? mbti+= "F" :mbti+="T";
+                ($("#JP").val() < 2) ? mbti+= "P" :mbti+="J";
+                alert(mbti);
+                $("#img").attr("src",result[mbti]["img"]);
+                $("#carbrand").html(result[mbti]["carbrand"]);
+                $("#explain").html(result[mbti]["explain"]);
+            } else {
+                $(".progress-bar").attr('style','width: calc(100/12*'+num+'%)');
+                $("#title").html(q[num]["title"]);
+                $("#type").val(q[num]["type"]);
+                $("#A").html(q[num]["A"]);
+                $("#B").html(q[num]["B"]);
+                num++;
+            }
+        }
+        
+    </script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60063f50c7d0a996"></script>
+
+
+</body>
+</html>

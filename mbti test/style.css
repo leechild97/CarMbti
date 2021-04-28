@@ -1,0 +1,93 @@
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: none;
+}
+
+.result {
+    display: none;
+}
+
+#img{
+    width:300px;
+    height:300px;
+    margin:0 auto;
+}
+
+.share {
+    margin: 0 auto;
+
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: #f3d036;
+    border-color: #f3d036;
+    }
+
+.kakao_ad {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.banner{
+    display:flex;
+    justify-content:center;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.banner-img {
+    width:300px;
+}
+
+.paper {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background: #6666;
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: #ff9300;
+}
+.progress {
+    background-color: #525764;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color:  #ff9300;
+    border-color: #ff9300;
+    }
+
+.popup-cont{
+background: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: "나눔고딕", NanumGothic, Helvetica, AppleGothic, Sans-serif, ngwoff, ngeot, "굴림", gulrem;
+    font-size: 14px;
+    line-height: 1;
+}
+#kakao_ad_area{
+    text-align:center;
+}
